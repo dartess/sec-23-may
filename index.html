@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Shower Presentation Engine</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen-16x10.css">
+</head>
+<body class="shower list">
+
+	<header class="caption">
+		<h1>.SEC: основы веб-программирования</h1>
+		<h2>Типографика</h2>
+	</header>
+
+	<section class="slide">
+		<h2>Типографика – это важно!</h2>
+		<ol>
+			<li>Собственно, типографика</li>
+			<li>Пунктуация</li>
+		</ol>
+	</section>
+
+	<section class="slide">
+		<h2>Найди три типографические ошибки</h2>
+		<img src="https://i.gyazo.com/a5bf94578835b863ae4064f9ec6d2e01.png" alt="">
+	</section>
+
+	<section class="slide">
+		<h2>Висячие предлоги</h2>
+		<p>Решения:</p>
+		<ol>
+			<li><code>white-space: nowrap</code></li>
+			<li><code>&amp;nbsp;</code></li>
+		</ol>
+	</section>
+
+	<section class="slide">
+		<h2>Переносы текста</h2>
+		<p>Решения:</p>
+		<ol>
+			<li><code>hyphens: auto</code> (<a href="http://caniuse.com/#feat=css-hyphens">http://caniuse.com/#feat=css-hyphens</a>)</li>
+			<li><code>&amp;shy;</code></li>
+		</ol>
+	</section>
+
+	<section class="slide">
+		<h2>Пробел?</h2>
+		<ol class="next">
+			<li>С. А. Козлов</li>
+			<li>С.А. Козлов</li>
+		</ol>
+		<ol class="next">
+			<li>г. Кострома</li>
+			<li>г.Кострома</li>
+		</ol>
+		<ol class="next">
+			<li>2005 – 2009 годы</li>
+			<li>2005–2009 годы</li>
+		</ol>
+		<ol class="next">
+			<li>§ 1. Биология как наука</li>
+			<li>§1. Биология как наука</li>
+		</ol>
+	</section>
+
+	<section class="slide">
+		<h2>Тире?</h2>
+
+		<ol style="font-size: 2em" class="next">
+			<li>-</li>
+			<li>–</li>
+			<li>−</li>
+			<li>—</li>
+		</ol>
+	</section>
+
+	<section class="slide">
+		<h2>Кавычки?</h2>
+
+		<table border="0" align="center" cellpadding="5" class="next">
+<tbody><tr>
+<td>Французские кавычки (ёлочки).</td>
+<td style="">«ёлочки»</td>
+</tr>
+<tr>
+<td>Немецкие кавычки (лапки).</td>
+<td style="">„лапки“</td>
+</tr>
+<tr>
+<td>Английские двойные кавычки.</td>
+<td style="">“английские двойные”</td>
+</tr>
+<tr>
+<td>Английские одиночные кавычки.</td>
+<td style="">‘английские одиночные’</td>
+</tr>
+<tr>
+<td>Польские кавычки.</td>
+<td style="">„польские кавычки”</td>
+</tr>
+<tr>
+<td>Шведские обратные кавычки.</td>
+<td style="">&nbsp;»шведские«</td>
+</tr>
+</tbody></table>
+	</section>
+
+		<section class="slide">
+		<h2>Кавычки внутри кавычек?</h2>
+
+		<p><em class="next">«„Цыганы“ мои не продаются вовсе», — сетовал Пушкин.</em></p>
+
+		<p><em class="next">«Цыганы» мои не продаются вовсе», — сетовал Пушкин.</em></p>
+		</section>
+
+	<section class="slide">
+		<h2>Телефон?</h2>
+		<ol style="font-size:0.85em;">
+			<li>89610079023</li>
+			<li>+79610079023</li>
+			<li>8(961)0079023</li>
+			<li>+7(961)0079023</li>
+			<li>+7(961)007-90-23</li>
+			<li>8 961 007-90-23</li>
+			<li>8 961 007 90 23</li>
+			<li>+7 (961) 007-90-23</li>
+			<li>+7-961-007-90-23</li>
+			<li>+7 961 007-90-23</li>
+			<li>+7 961 007 90 23</li>
+		</ol>
+	</section>
+
+	<section class="slide">
+		<h2>Телефон?</h2>
+		<ol>
+			<li>+7 4942 21-22-23</li>
+			<li>+7 (4942) 21-22-23</li>
+		</ol>
+	</section>
+
+	<section class="slide">
+		<h2>Ссылка с кавычками?</h2>
+		<ol>
+			<li>Читать «<a href="#">Искусство типографики</a>»</li>
+			<li>Читать <a href="#">«Искусство типографики»</a></li>
+			<li>Читать <a href="#" style="background:none">«<span style="background: linear-gradient(to top,currentColor .09em,transparent .09em) repeat-x;">Искусство типографики</span>»</a></li>
+		</ol>
+	</section>
+
+	<section class="slide">
+		<h2>Висячая пунктуация?</h2>
+		<h3>Обычный заголовок</h3>
+		<h3>«Кавычки» в начале заголовока</h3>
+		<h3>Обычный заголовок</h3>
+		<h3 style="text-indent: -0.4em">«Кавычки» в начале заголовока 2</h3>
+		<h3>Обычный заголовок</h3>
+	</section>
+
+	<section class="slide">
+		<h2>Висячая пунктуация?</h2>
+		<p>Решения:</p>
+		<ol>
+			<li><code>hanging-punctuation: first</code></li>
+			<li><code>text-indent: -0.4em</code></li>
+		</ol>
+	</section>
+
+	<section class="slide">
+		<h2>Windows?</h2>
+		<ul>
+			<li>Alt+0150</li>
+			<li>Alt+0151</li>
+			<li>Alt+0171</li>
+			<li>Alt+0187</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2>Не уверен? Погугли!</h2>
+	</section>
+
+	<div class="progress"></div>
+
+	<script src="node_modules/shower-core/shower.min.js"></script>
+	<!-- Copyright © 2017 Yours Truly, Famous Inc. -->
+
+	<style>
+	.slide {
+		padding-top: 35px;
+	}
+	.caption h2 {
+		padding-bottom: .15em;
+		font: 700 0.8em/1 PT Sans Narrow, sans-serif;
+	}
+	img {
+		max-width: 100%;
+	}
+	.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.clear-list li::before {
+	content: none !important;
+}
+.clear-list li {
+text-indent: 0 !important;
+}
+	</style>
+
+	<script>
+		(function(){for(var e=document.getElementsByClassName("ciu_embed"),t=0;t<e.length;t++){var s=e[t],n=s.getAttribute("data-feature"),r=s.getAttribute("data-periods");if(n){var a="http://caniuse.bitsofco.de/embed/index.html",o='<iframe src="'+a+"?feat="+n+"&periods="+r+'" frameborder="0" width="100%" height="400px"></iframe>';s.innerHTML=o}else s.innerHTML="A feature was not included. Go to <a href='http://caniuse.bitsofco.de/#how-to-use'>http://caniuse.bitsofco.de/#how-to-use</a> to generate an embed."}var i=window.addEventListener?"addEventListener":"attachEvent";(0,window[i])("attachEvent"==i?"onmessage":"message",function(t){var s=t.data;if("string"==typeof s&&s.indexOf("ciu_embed")>-1)for(var n=s.split(":")[1],r=s.split(":")[2],a=0;a<e.length;a++){var o=e[a];if(o.getAttribute("data-feature")===n){var i=parseInt(r)+30;o.childNodes[0].height=i+"px";break}}},!1)}).call(this);
+	</script>
+</body>
+</html>
